@@ -6,3 +6,21 @@ nav .navbar-nav li a{
     color: #fff;
 }
 
+.bg-image {
+    background-image: url(images/bgmediacss.png);
+    min-height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.top-heading {
+    color: #ff6b00;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+
