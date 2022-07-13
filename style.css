@@ -23,4 +23,20 @@ nav .navbar-nav li a{
     line-height: 64px;
 }
 
+.container {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+.text-dark {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 42px;
+}
+
+.btn-primary {
+    background-color: #ff6b00 !important;
+}
 
