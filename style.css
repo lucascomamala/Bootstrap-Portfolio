@@ -2,3 +2,7 @@ li{
     list-style: none;
 }
 
+nav .navbar-nav li a{
+    color: #fff;
+}
+
