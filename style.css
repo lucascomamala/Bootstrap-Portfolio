@@ -137,3 +137,48 @@ header {
     background-image: url("./images/illustration-about-me.svg");
   }
 }
+
+#languages-bullet {
+    width: 18px;
+    height: 18px;
+    transform: rotate(-45deg);
+    background: #ff6b00;
+  }
+  
+  #frameworks-bullet {
+    width: 18px;
+    height: 18px;
+    background: #ff6b00;
+  }
+  
+  #skills-bullet {
+    width: 18px;
+    height: 18px;
+    border-radius: 150px;
+    background: #ff6b00;
+  }
+
+  #languages-bullet {
+    width: 18px;
+    height: 18px;
+    transform: rotate(-45deg);
+    background: #ff6b00;
+  }
+  
+  #frameworks-bullet {
+    width: 18px;
+    height: 18px;
+    background: #ff6b00;
+  }
+  
+  #skills-bullet {
+    width: 18px;
+    height: 18px;
+    border-radius: 150px;
+    background: #ff6b00;
+  }
+  .bullet {
+    margin: 0 5px 0 0;
+  }
+  
+  
