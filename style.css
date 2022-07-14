@@ -40,3 +40,9 @@ nav .navbar-nav li a{
     background-color: #ff6b00 !important;
 }
 
+.listed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6px;
+}
