@@ -10,6 +10,7 @@ p {
   font-family: "Inter", sans-serif;
 }
 
+h1,
 h2,
 h3 {
   font-family: "Crete Round", sans-serif;
@@ -34,9 +35,31 @@ hr:after {
   background: white;
 }
 
+.social-icons {
+  font-size: 24px;
+  padding: 10px;
+  color: #dbd8d7;
+}
+
+header {
+  position: absolute;
+  height: 48px;
+  overflow: hidden;
+  width: 100%;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: fill-available;
+}
+
+#headline {
+  background-image: url("./images/illustration-header-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 650px;
+}
+
 #about {
   padding: 120px 24px 200px;
-  background-color: #1c1a19;
   background-image: url("./images/illustration-about-me-mobile.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -50,21 +73,9 @@ hr:after {
   max-width: 327px;
 }
 
-.bg-image {
-  background-image: url("images/bgmediacss.png");
-  min-height: 60vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top right;
-}
-
-.top-heading {
+#headline h1 {
   color: #ff6b00;
-  font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 56px;
-  line-height: 64px;
 }
 
 .contact-text {
@@ -73,13 +84,6 @@ hr:after {
   font-weight: 700;
   font-size: 29px;
   line-height: 42px;
-}
-
-.listed {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 6px;
 }
 
 .btn-primary {
@@ -117,4 +121,19 @@ hr:after {
   color: #5b5957;
   border: 1px solid #f4f1f0;
   background: #f4f1f0;
+}
+
+
+@media only screen and (min-width: 992px) {
+  header {
+    position: fixed;
+  }
+
+  #headline {
+    background-image: url("./images/illustration-header.svg");
+  }
+
+  #about {
+    background-image: url("./images/illustration-about-me.svg");
+  }
 }
