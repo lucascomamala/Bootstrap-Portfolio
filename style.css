@@ -1,48 +1,120 @@
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
-nav .navbar-nav li a{
-    color: #fff;
+nav .navbar-nav li a {
+  color: #fff;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+h2,
+h3 {
+  font-family: "Crete Round", sans-serif;
+}
+
+hr {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+
+hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.9em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+#about {
+  padding: 120px 24px 200px;
+  background-color: #1c1a19;
+  background-image: url("./images/illustration-about-me-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#about h2 {
+  color: #ff6b00;
+}
+
+#about p {
+  max-width: 327px;
 }
 
 .bg-image {
-    background-image: url(images/bgmediacss.png);
-    min-height: 60vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top right;
+  background-image: url("images/bgmediacss.png");
+  min-height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .top-heading {
-    color: #ff6b00;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 64px;
+  color: #ff6b00;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
 }
 
-.container {
-    padding-top: 8vh;
-    padding-bottom: 8vh;
-}
-
-.text-dark {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 29px;
-    line-height: 42px;
-}
-
-.btn-primary {
-    background-color: #ff6b00 !important;
+.contact-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 42px;
 }
 
 .listed {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 6px;
+}
+
+.btn-primary {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  height: 48px;
+  padding: 12px;
+  letter-spacing: 0.03em;
+  border: 1px solid #f55800;
+  background: #f55800;
+}
+
+.btn-primary:hover {
+  color: #f55800;
+  border: 1px solid #f55800;
+  background: #fff5e1;
+}
+
+.btn-primary:active {
+  color: #f4f1f0;
+  border: 1px solid #e05304;
+  background: #e05304;
+}
+
+.btn-primary:focus {
+  color: #fff;
+  background-color: #e05304;
+  border-color: #e05304;
+  box-shadow: 0 0 0 0.25rem rgb(245, 88, 0 / 50%);
+}
+
+.btn-primary:disabled {
+  cursor: not-allowed;
+  color: #5b5957;
+  border: 1px solid #f4f1f0;
+  background: #f4f1f0;
 }
